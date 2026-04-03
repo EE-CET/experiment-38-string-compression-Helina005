@@ -27,7 +27,7 @@ public class StringCompression {
         String result = compressed.toString();
 
         // Print the compressed string only if it's shorter than the original
-        if (result.length() < s.length()) {
+        if (result.length() <= s.length()) {
             System.out.println(result);
         } else {
             System.out.println(s);
